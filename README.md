@@ -48,4 +48,4 @@ Since this extension isn't available in the Chrome Web Store yet, you'll need to
 
 1. **Set Your Preferences:** Click the extension's button in your Chrome toolbar. Enter your desired Tariff Rate and Seller Profit Margin percentages, then click "Save Settings". The default values are 145% for tariff rate and 25% for profit margin.
 2. **Shop on Amazon:** Browse Amazon as you normally would.
-3. **See the Estimates:** When viewing a product made in China, you'll automatically see the estimated tariff amount in parentheses next to the price. This updates if you select different product options or variants.
+3. **See the Estimates:** When viewing a product made in China, once the page loads fully, you'll automatically see the estimated tariff amount next to the price. This updates if you select different product options or variants.
