@@ -22,6 +22,15 @@ The tool uses a straightforward approach to estimate tariffs:
 
 Note: This provides a simplified estimate and doesn't account for other factors like shipping costs, insurance, or currency conversion fees.
 
+The tariff estimation is based on the following logic:
+
+1.  Assume the final `Price` includes the original `Cost`, the `Importer Profit Margin`, and the `Tariff`.
+2.  `Price = Cost * (1 + ProfitMargin) * (1 + TariffRate)`
+3.  Derive the original `Cost`:
+    `Cost = Price / ((1 + ProfitMargin) * (1 + TariffRate))`
+4.  Calculate the `Tariff Amount`:
+    `TariffAmount = Cost * TariffRate`
+
 ## How to Install
 
 Since this extension isn't available in the Chrome Web Store yet, you'll need to install it manually:
